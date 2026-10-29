@@ -3,6 +3,7 @@ import sambusaImage from "../images/LentilSambusas.jpg"
 
 export function loadHomepage() {
     const myContent = document.querySelector("#content");
+    myContent.replaceChildren();
     const myHeading = document.createElement("h1");
     const myDescription = document.createElement("p");
     const image = document.createElement("img");
