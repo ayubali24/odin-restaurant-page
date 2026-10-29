@@ -23,5 +23,5 @@ export function loadMenuPage() {
     item5.textContent = "WATER | $1.34";
 
 
-    myContent.append(myHeading, dishesHeading, item1, item2, item3, drinksHeading, item5);
+    myContent.append(myHeading, dishesHeading, item1, item2, item3, item4, drinksHeading, item5);
 }
